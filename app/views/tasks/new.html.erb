@@ -1,5 +1,9 @@
-<h1>New task</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Back to tasks', tasks_path %>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <%= link_to 'Back to the tasks', tasks_path, class: 'btn btn-secondary' %>
+      <h1>New task</h1>
+      <%= render 'form' %>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-<%= link_to 'Edit task', edit_task_path, method: 'put' %>
+<%= link_to 'Edit task', edit_task_path, method: 'put', class: 'btn btn-primary' %>
 
 <h1><%= @task.title %></h1>
 <p><%= @task.details %></p>
@@ -10,4 +10,4 @@
   <p>Task is not done yet</p>
 <% end %>
 
-<%= link_to 'Back to list', tasks_path %>
+<%= link_to 'Back to list', tasks_path, class: 'btn btn-secondary' %>
